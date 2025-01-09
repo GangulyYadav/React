@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import Form from './Form'
+import NoPortalModal from './NoPortalModal'
 
 function App() {
   const [Data, setData] = useState([])
@@ -71,8 +72,8 @@ function App() {
 
   return (
     <>
-
-      <Form />
+    <NoPortalModal/>
+      {/* <Form /> */}
       {/* <div className='h-screen flex flex-col justify-center items-center mx-12 flex-wrap gap-5 my-5'>
         <div>
 
